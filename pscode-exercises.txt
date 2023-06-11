@@ -1,0 +1,77 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+bool inputStatus = false
+
+While(inputStatus = false){
+	Print("What is the first number?")
+	int firstNumber = INPUT()
+	
+	If(firstNumber.isNumber){
+		Print("What is the second number?")
+		int secondNumber = INPUT()
+		If(secondNumber.isNumber){
+			inputStatus = true
+		}
+		Else{
+			Print("That's not a number. Try again.")
+	Else{
+		Print("That's not a number. Try again.")
+	}
+
+int answer = firstNumber + secondNumber
+
+Print("The sum is: " + answer)
+
+// Exercise 2: Check if a Number is Even or Odd
+
+Print("Input an integer:")
+
+int inputNumber = Input()
+
+If(inputNumber % 2 == 0){
+	Print(“This is an even number!”)
+	}
+Else If(inputNumber % 2 != 0) {
+	Print(“This is an odd number!”)
+	}
+Else{
+	Print("This is not an integer!")
+
+// Exercise 3: 
+// Write pseudo code that will perform the following.    
+
+// a) Read in 5 separate numbers.   
+// b) Calculate the average of the five numbers.
+// c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+// d) Write out the results found from steps b and c with a message describing what they are
+
+int i = 0
+array numberList
+
+While(i < 5){
+	Print("Input a number: ")
+	numberList.add(Input(), i)
+	i++
+}
+
+i = 0
+int sum
+
+While(i < 5){
+	sum = sum + numberList.index(i)
+}
+
+int numberAverage = sum / 5
+
+int lowestNumber = numberList.index(0)
+i = 1
+
+While(i < 5){
+	If(lowestNumber > numberlist.index(i)){
+		lowestNumber = numberlist.index(i)
+	}
+}
+
+Print("The average of those five numbers is: " + numberAverage)
+Print("The lowest number that you entered is: " + lowestNumber) 	
+	 
+-- END --
